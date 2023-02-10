@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
    
-        acceptedUserNameLabel.text = "\(textAaViewContr ?? "")"
+        acceptedUserNameLabel.text = "Welcome: \(textAaViewContr ?? "")"
     }
     
     @IBAction func goOutButton() {
