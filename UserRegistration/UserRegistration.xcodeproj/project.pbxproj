@@ -13,6 +13,8 @@
 		102A3FAD298E8DD400ABA56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102A3FAB298E8DD400ABA56D /* Main.storyboard */; };
 		102A3FAF298E8DD600ABA56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102A3FAE298E8DD600ABA56D /* Assets.xcassets */; };
 		102A3FB2298E8DD600ABA56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102A3FB0298E8DD600ABA56D /* LaunchScreen.storyboard */; };
+		102A3FBA298ECE8B00ABA56D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A3FB9298ECE8B00ABA56D /* SecondViewController.swift */; };
+		102A3FBC2993FD9800ABA56D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A3FBB2993FD9800ABA56D /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		102A3FAE298E8DD600ABA56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		102A3FB1298E8DD600ABA56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		102A3FB3298E8DD600ABA56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102A3FB9298ECE8B00ABA56D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		102A3FBB2993FD9800ABA56D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				102A3FA5298E8DD400ABA56D /* AppDelegate.swift */,
 				102A3FA7298E8DD400ABA56D /* SceneDelegate.swift */,
 				102A3FA9298E8DD400ABA56D /* ViewController.swift */,
+				102A3FB9298ECE8B00ABA56D /* SecondViewController.swift */,
+				102A3FBB2993FD9800ABA56D /* GradientView.swift */,
 				102A3FAB298E8DD400ABA56D /* Main.storyboard */,
 				102A3FAE298E8DD600ABA56D /* Assets.xcassets */,
 				102A3FB0298E8DD600ABA56D /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102A3FBA298ECE8B00ABA56D /* SecondViewController.swift in Sources */,
 				102A3FAA298E8DD400ABA56D /* ViewController.swift in Sources */,
+				102A3FBC2993FD9800ABA56D /* GradientView.swift in Sources */,
 				102A3FA6298E8DD400ABA56D /* AppDelegate.swift in Sources */,
 				102A3FA8298E8DD400ABA56D /* SceneDelegate.swift in Sources */,
 			);
